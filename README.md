@@ -8,7 +8,7 @@ This project provides the SimpleCaptcha class.
 The images are similar to google captchas.
 
 Basic example:
-
+~~~~
 session_start();
 $captcha = new SimpleCaptcha();
 // Change configuration...
@@ -16,3 +16,4 @@ $captcha = new SimpleCaptcha();
 //$captcha->wordsFile = 'words/es.txt'; // Enable spanish words
 //$captcha->session_var = 'secretword'; // Change session variable
 $captcha->CreateImage();
+~~~~
